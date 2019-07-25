@@ -8,9 +8,6 @@
 (global-set-key (kbd "C-f") 'isearch-forward)
 (global-set-key (kbd "C-\S-f") 'isearch-backward)
 
-;;;; search
-(global-set-key (kbd "C-f") 'isearch-forward)
-
 ;;;; cut
 (global-unset-key (kbd "M-x"))
 (global-set-key (kbd "M-x") 'kill-region)
@@ -101,8 +98,4 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Cousine" :foundry "monotype" :slant normal :weight normal :height 151 :width normal)))))
 
-
-;;;;(global-set-key (kbd "<tab>") 'indent-for-tab-command)
-;;;;(global-set-key (kbd "TAB") 'indent-for-tab-command)
-;;;(global-unset-key [f1])
 (global-set-key (kbd "C-<tab>") 'indent-for-tab-command)

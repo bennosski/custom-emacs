@@ -8,9 +8,6 @@
 (global-set-key (kbd "C-f") 'isearch-forward)
 (global-set-key (kbd "C-\S-f") 'isearch-backward)
 
-;;;;(global-set-key (kbd "<tab>") 'indent-for-tab-command)
-(global-set-key (kbd "TAB") 'indent-for-tab-command)
-
 ;;;; search
 (global-set-key (kbd "C-f") 'isearch-forward)
 
@@ -103,3 +100,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Cousine" :foundry "monotype" :slant normal :weight normal :height 151 :width normal)))))
+
+
+;;;;(global-set-key (kbd "<tab>") 'indent-for-tab-command)
+;;;;(global-set-key (kbd "TAB") 'indent-for-tab-command)
+;;;(global-unset-key [f1])
+(global-set-key (kbd "C-<tab>") 'indent-for-tab-command)

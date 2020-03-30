@@ -84,6 +84,9 @@
 ;;;; open file
 (global-set-key (kbd "C-o") 'find-file)
 
+;;;; set mark
+(global-unset-key (kbd "\S-SPC"))
+(global-set-key (kbd "\S-SPC") 'set-mark-command)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

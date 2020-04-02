@@ -85,8 +85,10 @@
 (global-set-key (kbd "C-o") 'find-file)
 
 ;;;; set mark
-(global-unset-key (kbd "\S-SPC"))
-(global-set-key (kbd "\S-SPC") 'set-mark-command)
+(global-unset-key (kbd "M-m"))
+(global-set-key (kbd "M-m") 'set-mark-command)
+
+(global-set-key (kbd "C-<tab>") 'indent-for-tab-command)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -101,4 +103,3 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Cousine" :foundry "monotype" :slant normal :weight normal :height 151 :width normal)))))
 
-(global-set-key (kbd "C-<tab>") 'indent-for-tab-command)
